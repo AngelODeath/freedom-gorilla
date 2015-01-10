@@ -80,12 +80,11 @@ footer {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.glyphicon {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 24px;
-}
-
 .user_account {
     float: right;
+}
+
+/* Put your CSS here */
+.ember-application {
+    margin: 20px;
 }
