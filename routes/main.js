@@ -1,10 +1,16 @@
+/**
+* Created with LoginMenuWithFrameTest.
+* User: AngelODeath
+* Date: 2015-01-03
+* Time: 07:47 AM
+*/
+
 var express = require('express');
 var router = express.Router();
 var util = require('util');
 
 var app_data = {};
 app_data.title = '+L=G10N+';
-
 
 router.get('/:url', function(req, res) {
     console.log(req.params);
@@ -31,7 +37,5 @@ router.get('/:url', function(req, res) {
     }
     
 });
-
-module.exports = router;
 
 module.exports = router;
