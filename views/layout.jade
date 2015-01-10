@@ -9,8 +9,7 @@ html(lang="en")
     block stylesheets
   body
     header
-      nav.navbar.navbar-inverse.navbar-fixed-top
-        .container
+      .navbar.navbar-inverse.navbar-fixed-top
           .navbar-header
             a.navbar-brand#home(href='#')= title
             button.navbar-toggle(type='button' data-toggle='collapse' data-target='.navbar-collapse')
@@ -43,5 +42,5 @@ html(lang="en")
     footer Running on node with Express and Jade
     
   script(src='/javascript/jquery-2.1.3.min.js')
-  //script(src='/javascript/bootstrap.min.js')
+  script(src='/javascript/bootstrap.min.js')
   block scripts
